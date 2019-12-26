@@ -46,8 +46,36 @@
             <div class="card-content white-text">
               <div class="container">
                 <div class="row">
-                  <div class="col purple-text darken-4 s12">
-                    <input type="text" class="timepicker white-text">
+                  <div class=" input-field col purple-text darken-4 s12">
+                    <div class="switch">
+                      <span class="white-text">Memorable?</span>
+                      <label>
+                        NO
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Yes
+                      </label>
+                    </div>
+                  </div>
+                  <div class=" input-field col purple-text darken-4 s6">
+                    <input type="text" id="time" class="timepicker white-text">
+                    <label for="time">Time</label>
+                  </div>
+                  <div class=" input-field col purple-text darken-4 s6">
+                    <input type="text" id="cost" class="white-text">
+                    <label for="cost">Cost</label>
+                  </div>
+                  <div class="input-field purple-text darken-4 col s12">
+                    <input id="place" type="text" class="validate white-text">
+                    <label for="place">Place</label>
+                  </div>
+                  <div class="input-field purple-text darken-4 col s12">
+                    <input id="task" type="text" class="validate white-text">
+                    <label for="task">Task</label>
+                  </div>
+                  <div class="input-field purple-text darken-4 col s12">
+                    <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+                    <label for="textarea1">Description</label>
                   </div>
                 </div>
               </div>
