@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Life - LOG</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="purple darken-4" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Life -
+                    LOG</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="past.html"><i class="material-icons">access_time</i></a></li>
+                    <li><a href="past.html"><i class="material-icons">exit_to_app</i></a></li>
+                </ul>
+
+
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    <ul id="nav-mobile" class="sidenav">
+        <li><a href="past.html"><i class="material-icons">access_time</i></a></li>
+        <li><a href="past.html"><i class="material-icons">exit_to_app</i></a></li>
+    </ul>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br><br>
+            <h1 class="header center purple-text text-darken-4">Life-LOG</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Keep Track of Life</h5>
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+            <div class="row center">
+                <div class="col s12 m6 offset-m3">
+                    <div class="card purple darken-4">
+                        <div class="card-content white-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="input-field purple-text darken-4 col s12">
+                                        <input type="text" id="date" class="datepicker">
+                                        <label for="date">Date</label>
+                                    </div>
+                                    <div class="input-field purple-text darken-4 col s12">
+                                        <input id="place" type="text" class="validate white-text">
+                                        <label for="place">Place</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect white purple-text text-darken-4 waves-purple btn">GO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 offset-m3">
+                    <div class="card purple darken-4">
+                        <div class="card-content white-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <ul class="collapsible">
+                                            <li>
+                                                <div class="collapsible-header purple darken-4">
+                                                    <i class="material-icons">access_time</i>10:32 AM
+                                                    &nbsp; &nbsp; &minus; &nbsp; &nbsp;
+                                                    <i class="material-icons">place</i>
+                                                    Gulsan
+                                                </div>
+                                                <div class="collapsible-body white black-text left-align">
+                                                    <!-- Cost -->
+                                                    <b>Cost: </b>TK.100
+                                                    <!-- /Cost -->
+
+                                                    <!-- Button -->
+                                                    <a
+                                                        class="btn-floating right btn-small waves-effect waves-light purple darken-4">
+                                                        <i class="material-icons">edit</i>
+                                                    </a>
+                                                    <!-- /Button -->
+                                                    <br>
+                                                    <!-- task -->
+                                                    <b>Task: </b>Going to office<br>
+                                                    <!-- /task -->
+                                                    <!-- Description -->
+                                                    <b>Description: </b> left-align left-align left-align left-align
+                                                    left-align left-align
+                                                    <!-- /Description -->
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="collapsible-header purple darken-4">
+                                                    <i class="material-icons">access_time</i>7:32 PM
+                                                    &nbsp; &nbsp; &minus; &nbsp; &nbsp;
+                                                    <i class="material-icons">place</i>
+                                                    Mohammadpur
+                                                </div>
+                                                <div class="collapsible-body white black-text left-align">
+                                                    <!-- Cost -->
+                                                    <b>Cost: </b>TK.100
+                                                    <!-- /Cost -->
+
+                                                    <!-- Button -->
+                                                    <a
+                                                        class="btn-floating right btn-small waves-effect waves-light purple darken-4">
+                                                        <i class="material-icons">edit</i>
+                                                    </a>
+                                                    <!-- /Button -->
+                                                    <br>
+                                                    <!-- task -->
+                                                    <b>Task: </b>Going to office<br>
+                                                    <!-- /task -->
+                                                    <!-- Description -->
+                                                    <b>Description: </b> left-align left-align left-align left-align
+                                                    left-align left-align
+                                                    <!-- /Description -->
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <footer class="page-footer purple darken-4">
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="white-text text-lighten-3" href="http://shuvothecoder.com">Sohag Hasan</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
