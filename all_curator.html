@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Life - LOG</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="purple darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo right">Life -
+          LOG</a>
+        <ul class="right hide-on-med-and-down left">
+
+        </ul>
+
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <ul id="nav-mobile" class="sidenav sidenav-fixed">
+    <!-- <li><a href="past.html"><i class="material-icons">access_time</i></a></li>
+      <li><a href="past.html"><i class="material-icons">exit_to_app</i></a></li> -->
+
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="img.jpg" width="100%">
+        </div>
+        <a href="#user"><img class="circle" src="me.jpg"></a>
+        <a href="#name"><span class="white-text name">Sohag Hasan</span></a>
+        <a href="#email"><span class="white-text email">sohag.web.dev@gmail.com</span></a>
+      </div>
+    </li>
+    <li class="active"><a href="index.html"><i class="material-icons purple-text text-darken-4">home</i> Home</a></li>
+    <li><a href="memorable.html"><i class="material-icons black-text">favorite</i> Memorable</a></li>
+    <li class="pad0">
+      <ul class="collapsible">
+        <li><a class="pad32 collapsible-header waves-effect waves-teal">
+            <i class="material-icons purple-text text-darken-4">assignment</i> Curator</a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="new_curator.html"><i class="material-icons">library_add</i> New</a></li>
+              <li><a href="all_curator.html"><i class="material-icons">library_books</i> All</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li class="pad0">
+      <ul class="collapsible">
+        <li><a class="pad32 collapsible-header waves-effect waves-teal">
+            <i class="material-icons purple-text text-darken-4">place</i> Top Places</a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="place.html"><i class="material-icons">explore</i> Home</a></li>
+              <li><a href="place.html"><i class="material-icons">explore</i> Gulsan</a></li>
+              <li><a href="place.html"><i class="material-icons">explore</i> Mohammadpur</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li><a href="past.html"><i class="material-icons purple-text text-darken-4">access_time</i> Go to Past</a></li>
+    <li><a href="profile.html"><i class="material-icons purple-text text-darken-4">person_pin</i> Profile</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a href="past.html"><i class="material-icons red-text text-darken-4">exit_to_app</i> Log Out</a></li>
+  </ul>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="header center purple-text text-darken-4">Life-LOG</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">All Items</h5>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row center">
+        <div class="col s12 m6 offset-m3">
+          <div class="card purple darken-4">
+            <div class="card-content white-text">
+              <div class="container">
+                <div class="row">
+                  <div class="input-field purple-text darken-4 col s8">
+                    <input id="search" type="text" class="validate white-text">
+                    <label for="search">Search By Anything</label>
+                  </div>
+                  <div class="input-field purple-text darken-4 col s4">
+                    <a class="waves-effect white purple-text text-darken-4 waves-purple btn">Search</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 offset-m3">
+          <div class="card purple darken-4">
+            <div class="card-content white-text">
+              <table class="highlight centered responsive-table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Date Time</th>
+                    <th>Cost</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Pendrive</td>
+                    <td>10:22 AM, 12 Jan 2020</td>
+                    <td>৳100</td>
+                    <td>Onek Sokh Koira kinsi</td>
+                  </tr>
+                  <tr>
+                    <td>Phone</td>
+                    <td>10:22 AM 12 Jan 2020</td>
+                    <td>৳100</td>
+                    <td>Onek Sokh Koira kinsi</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 offset-m3">
+          <div class="card purple darken-4">
+            <div class="card-content white-text">
+              <ul class="pagination">
+                <li class="disabled"><a href="#!"><i class="material-icons white-text">chevron_left</i></a></li>
+                <li class="active"><a href="#!">1</a></li>
+                <li class="waves-effect"><a class="white-text" href="#!">2</a></li>
+                <li class="waves-effect"><a class="white-text" href="#!">3</a></li>
+                <li class="waves-effect"><a class="white-text" href="#!">4</a></li>
+                <li class="waves-effect"><a class="white-text" href="#!">5</a></li>
+                <li class="waves-effect"><a class="white-text" href="#!"><i
+                      class="material-icons white-text">chevron_right</i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer purple darken-4">
+    <div class="footer-copyright">
+      <div class="container right-align">
+        Made by <a class="white-text text-lighten-3" href="http://shuvothecoder.com">Sohag Hasan</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
